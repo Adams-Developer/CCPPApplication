@@ -14,4 +14,4 @@ Solution: Build a model that takes inputs to predict the taxi fare
 - Machine Learning using ML.NET
 - Language: C#
 - Visual Studio 2019
-- Framework: .NET Core Web Application (MVC)
+- Framework: .NET Core 2.1 Web Application (MVC)
