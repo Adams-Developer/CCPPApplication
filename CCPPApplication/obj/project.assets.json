@@ -2374,6 +2374,135 @@
           "lib/netstandard1.4/Microsoft.IdentityModel.Xml.dll": {}
         }
       },
+      "Microsoft.ML/1.5.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ML.CpuMath": "1.5.2",
+          "Microsoft.ML.DataView": "1.5.2",
+          "Newtonsoft.Json": "10.0.3",
+          "System.CodeDom": "4.4.0",
+          "System.Collections.Immutable": "1.5.0",
+          "System.Memory": "4.5.1",
+          "System.Reflection.Emit.Lightweight": "4.3.0",
+          "System.Threading.Channels": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.Core.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Data.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.Core.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Data.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libLdaNative.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/libLdaNative.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/LdaNative.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/LdaNative.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Microsoft.ML.CpuMath/1.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.CpuMath.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.CpuMath.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/nativeassets/netstandard2.0/libCpuMathNative.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netstandard2.0/libCpuMathNative.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/nativeassets/netstandard2.0/CpuMathNative.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/nativeassets/netstandard2.0/CpuMathNative.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Microsoft.ML.DataView/1.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections.Immutable": "1.5.0",
+          "System.Memory": "4.5.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {}
+        }
+      },
+      "Microsoft.ML.FastTree/1.5.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ML": "1.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.FastTree.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.FastTree.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libFastTreeNative.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/libFastTreeNative.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/FastTreeNative.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/FastTreeNative.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
       "Microsoft.Net.Http.Headers/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -2885,6 +3014,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "System.CodeDom/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.CodeDom.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {}
         }
       },
       "System.Collections/4.3.0": {
@@ -3537,7 +3675,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {}
+          "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll": {}
@@ -4122,13 +4260,13 @@
           "lib/netstandard1.3/System.Threading.dll": {}
         }
       },
-      "System.Threading.Channels/4.5.0": {
+      "System.Threading.Channels/4.7.1": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp2.1/System.Threading.Channels.dll": {}
+          "lib/netstandard2.0/System.Threading.Channels.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp2.1/System.Threading.Channels.dll": {}
+          "lib/netstandard2.0/System.Threading.Channels.dll": {}
         }
       },
       "System.Threading.Tasks/4.3.0": {
@@ -4332,6 +4470,20 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
+        }
+      },
+      "CCPPApplicationML.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.ML": "1.5.2",
+          "Microsoft.ML.FastTree": "1.5.2"
+        },
+        "compile": {
+          "bin/placeholder/CCPPApplicationML.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CCPPApplicationML.Model.dll": {}
         }
       }
     }
@@ -6547,6 +6699,102 @@
         "microsoft.identitymodel.xml.nuspec"
       ]
     },
+    "Microsoft.ML/1.5.2": {
+      "sha512": "hxMFUp5nFHXiB/KqLJA6yNG2tDFVZ27SJ+rG7bxVmN0sUvQvuyziOiFWO95nVshJCC+stMl+NOtep6Y2b8wF5Q==",
+      "type": "package",
+      "path": "microsoft.ml/1.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "THIRD-PARTY-NOTICES.TXT",
+        "build/netstandard2.0/Microsoft.ML.props",
+        "build/netstandard2.0/Microsoft.ML.targets",
+        "lib/netstandard2.0/Microsoft.ML.Core.dll",
+        "lib/netstandard2.0/Microsoft.ML.Core.xml",
+        "lib/netstandard2.0/Microsoft.ML.Data.dll",
+        "lib/netstandard2.0/Microsoft.ML.Data.xml",
+        "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll",
+        "lib/netstandard2.0/Microsoft.ML.KMeansClustering.xml",
+        "lib/netstandard2.0/Microsoft.ML.PCA.dll",
+        "lib/netstandard2.0/Microsoft.ML.PCA.xml",
+        "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll",
+        "lib/netstandard2.0/Microsoft.ML.StandardTrainers.xml",
+        "lib/netstandard2.0/Microsoft.ML.Transforms.dll",
+        "lib/netstandard2.0/Microsoft.ML.Transforms.xml",
+        "microsoft.ml.1.5.2.nupkg.sha512",
+        "microsoft.ml.nuspec",
+        "mlnetlogo.png",
+        "runtimes/linux-x64/native/libLdaNative.so",
+        "runtimes/osx-x64/native/libLdaNative.dylib",
+        "runtimes/win-x64/native/LdaNative.dll",
+        "runtimes/win-x86/native/LdaNative.dll"
+      ]
+    },
+    "Microsoft.ML.CpuMath/1.5.2": {
+      "sha512": "14UKxwWkeYpZsik9qqff1VSgHONuOj2VnjoAZ7fbhqY+GBlhq+yQeQSjLAdi6OiXXOkF9KPX5F2azMisBBzddg==",
+      "type": "package",
+      "path": "microsoft.ml.cpumath/1.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "THIRD-PARTY-NOTICES.TXT",
+        "build/netstandard2.0/Microsoft.ML.CpuMath.props",
+        "lib/netcoreapp3.1/Microsoft.ML.CpuMath.dll",
+        "lib/netcoreapp3.1/Microsoft.ML.CpuMath.xml",
+        "lib/netstandard2.0/Microsoft.ML.CpuMath.dll",
+        "lib/netstandard2.0/Microsoft.ML.CpuMath.xml",
+        "microsoft.ml.cpumath.1.5.2.nupkg.sha512",
+        "microsoft.ml.cpumath.nuspec",
+        "mlnetlogo.png",
+        "runtimes/linux-x64/nativeassets/netcoreapp3.1/_._",
+        "runtimes/linux-x64/nativeassets/netstandard2.0/libCpuMathNative.so",
+        "runtimes/osx-x64/nativeassets/netcoreapp3.1/_._",
+        "runtimes/osx-x64/nativeassets/netstandard2.0/libCpuMathNative.dylib",
+        "runtimes/win-x64/nativeassets/netcoreapp3.1/_._",
+        "runtimes/win-x64/nativeassets/netstandard2.0/CpuMathNative.dll",
+        "runtimes/win-x86/nativeassets/netcoreapp3.1/_._",
+        "runtimes/win-x86/nativeassets/netstandard2.0/CpuMathNative.dll"
+      ]
+    },
+    "Microsoft.ML.DataView/1.5.2": {
+      "sha512": "jiIj1ikGnH7ge1rx5K2RVetjIhKJtEQjwTuyOw5hKgTspOTdxlA5cnvfOIKUW/2EOKBkwlKEIkcA66y6fiCrvw==",
+      "type": "package",
+      "path": "microsoft.ml.dataview/1.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard2.0/Microsoft.ML.DataView.dll",
+        "lib/netstandard2.0/Microsoft.ML.DataView.xml",
+        "microsoft.ml.dataview.1.5.2.nupkg.sha512",
+        "microsoft.ml.dataview.nuspec",
+        "mlnetlogo.png"
+      ]
+    },
+    "Microsoft.ML.FastTree/1.5.2": {
+      "sha512": "msBnr/dEaZFSgxnTT0mhHmowDdB7TJk5MwNfZIsfx26ulxh43PTHM4635VXpPMaBXwBIgBCyWsFr18nbW/ZnKg==",
+      "type": "package",
+      "path": "microsoft.ml.fasttree/1.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "THIRD-PARTY-NOTICES.TXT",
+        "build/netstandard2.0/Microsoft.ML.FastTree.props",
+        "lib/netstandard2.0/Microsoft.ML.FastTree.dll",
+        "lib/netstandard2.0/Microsoft.ML.FastTree.xml",
+        "microsoft.ml.fasttree.1.5.2.nupkg.sha512",
+        "microsoft.ml.fasttree.nuspec",
+        "mlnetlogo.png",
+        "runtimes/linux-x64/native/libFastTreeNative.so",
+        "runtimes/osx-x64/native/libFastTreeNative.dylib",
+        "runtimes/win-x64/native/FastTreeNative.dll",
+        "runtimes/win-x86/native/FastTreeNative.dll"
+      ]
+    },
     "Microsoft.Net.Http.Headers/2.1.1": {
       "sha512": "lPNIphl8b2EuhOE9dMH6EZDmu7pS882O+HMi5BJNsigxHaWlBrYxZHFZgE18cyaPp6SSZcTkKkuzfjV/RRQKlA==",
       "type": "package",
@@ -7494,6 +7742,27 @@
         "ref/uap10.0.16299/_._",
         "system.buffers.4.5.0.nupkg.sha512",
         "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.CodeDom/4.4.0": {
+      "sha512": "2sCCb7doXEwtYAbqzbF/8UAeDRMNmPaQbU2q50Psg1J9KzumyVVCgKQY8s53WIPTufNT0DpSe9QRvVjOzfDWBA==",
+      "type": "package",
+      "path": "system.codedom/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.CodeDom.dll",
+        "lib/netstandard2.0/System.CodeDom.dll",
+        "ref/net461/System.CodeDom.dll",
+        "ref/net461/System.CodeDom.xml",
+        "ref/netstandard2.0/System.CodeDom.dll",
+        "ref/netstandard2.0/System.CodeDom.xml",
+        "system.codedom.4.4.0.nupkg.sha512",
+        "system.codedom.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
@@ -11251,22 +11520,25 @@
         "system.threading.nuspec"
       ]
     },
-    "System.Threading.Channels/4.5.0": {
-      "sha512": "MEH06N0rIGmRT4LOKQ2BmUO0IxfvmIY/PaouSq+DFQku72OL8cxfw8W99uGpTCFf2vx2QHLRSh374iSM3asdTA==",
+    "System.Threading.Channels/4.7.1": {
+      "sha512": "6akRtHK/wab3246t4p5v3HQrtQk8LboOt5T4dtpNgsp3zvDeM4/Gx8V12t0h+c/W9/enUrilk8n6EQqdQorZAA==",
       "type": "package",
-      "path": "system.threading.channels/4.5.0",
+      "path": "system.threading.channels/4.7.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "lib/netcoreapp2.1/System.Threading.Channels.dll",
-        "lib/netcoreapp2.1/System.Threading.Channels.xml",
+        "lib/net461/System.Threading.Channels.dll",
+        "lib/net461/System.Threading.Channels.xml",
+        "lib/netcoreapp3.0/System.Threading.Channels.dll",
+        "lib/netcoreapp3.0/System.Threading.Channels.xml",
         "lib/netstandard1.3/System.Threading.Channels.dll",
         "lib/netstandard1.3/System.Threading.Channels.xml",
         "lib/netstandard2.0/System.Threading.Channels.dll",
         "lib/netstandard2.0/System.Threading.Channels.xml",
-        "system.threading.channels.4.5.0.nupkg.sha512",
+        "system.threading.channels.4.7.1.nupkg.sha512",
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -11816,10 +12088,16 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "CCPPApplicationML.Model/1.0.0": {
+      "type": "project",
+      "path": "../CCPPApplicationML.Model/CCPPApplicationML.Model.csproj",
+      "msbuildProject": "../CCPPApplicationML.Model/CCPPApplicationML.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "CCPPApplicationML.Model >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0"
@@ -11833,11 +12111,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tadam\\Source\\Repos\\CCPPApplication\\CCPPApplication\\CCPPApplication.csproj",
+      "projectUniqueName": "C:\\Users\\tadam\\source\\repos\\CCPPApplication\\CCPPApplication\\CCPPApplication.csproj",
       "projectName": "CCPPApplication",
-      "projectPath": "C:\\Users\\tadam\\Source\\Repos\\CCPPApplication\\CCPPApplication\\CCPPApplication.csproj",
+      "projectPath": "C:\\Users\\tadam\\source\\repos\\CCPPApplication\\CCPPApplication\\CCPPApplication.csproj",
       "packagesPath": "C:\\Users\\tadam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tadam\\Source\\Repos\\CCPPApplication\\CCPPApplication\\obj\\",
+      "outputPath": "C:\\Users\\tadam\\source\\repos\\CCPPApplication\\CCPPApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -11858,7 +12136,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "targetAlias": "netcoreapp2.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\tadam\\source\\repos\\CCPPApplication\\CCPPApplicationML.Model\\CCPPApplicationML.Model.csproj": {
+              "projectPath": "C:\\Users\\tadam\\source\\repos\\CCPPApplication\\CCPPApplicationML.Model\\CCPPApplicationML.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

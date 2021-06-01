@@ -1,0 +1,58 @@
+﻿@model CCPPApplicationML.Model.ModelInput
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+<body class="bg-light">
+
+    <div class="container">
+        <div class="py-5 text-center">
+            <img class="d-block mx-auto mb-4" src="~/images/taxi_logos_PNG4.png" alt="taxi cab icon" width="72" height="72" />
+            <h2>Chicago Taxi Cab Price Predictor</h2>
+            <p class="lead">
+                This prediction web application can be used for taxi providers to give users and drivers an estimate on ride fares.
+            </p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 order-md-2 mb-4">
+                @if (ViewBag.FarePrice != null)
+                {
+                    <h4 class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="text-muted">Predicted Fare</span>
+                        <span class="badge badge-secondary badge-pill">$ @ViewBag.FarePrice</span>
+                    </h4>
+                }
+            </div>
+
+            <div class="col-md-4">
+                <form asp-action="Price">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Trip_seconds" class="control-label"></label>
+                        <input asp-for="Trip_seconds" class="form-control" />
+                        <span asp-validation-for="Trip_seconds" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Trip_miles" class="control-label"></label>
+                        <input asp-for="Trip_miles" class="form-control" />
+                        <span asp-validation-for="Trip_miles" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Payment_type" class="control-label"></label>
+                        <input asp-for="Payment_type" class="form-control" />
+                        <span asp-validation-for="Payment_type" class="text-danger"></span>
+                    </div>
+                    <hr class="mb-4">
+                    <div class="form-group">
+                        <button class="btn btn-primary btn-lg btn-block" type="submit" style="color:white">Predict Fare</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</body>

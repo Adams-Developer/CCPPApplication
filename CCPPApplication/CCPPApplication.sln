@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CCPPApplication", "CCPPApplication.csproj", "{39624F91-68FF-481D-8604-48A58B2C267A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CCPPApplicationML.Model", "..\CCPPApplicationML.Model\CCPPApplicationML.Model.csproj", "{6EF2B2EB-FE4A-4116-8F03-7DAE6AFA693B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CCPPApplicationML.ConsoleApp", "..\CCPPApplicationML.ConsoleApp\CCPPApplicationML.ConsoleApp.csproj", "{005707C1-5D68-4D52-BAD3-9BCB119FE9BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{39624F91-68FF-481D-8604-48A58B2C267A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39624F91-68FF-481D-8604-48A58B2C267A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39624F91-68FF-481D-8604-48A58B2C267A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EF2B2EB-FE4A-4116-8F03-7DAE6AFA693B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF2B2EB-FE4A-4116-8F03-7DAE6AFA693B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF2B2EB-FE4A-4116-8F03-7DAE6AFA693B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF2B2EB-FE4A-4116-8F03-7DAE6AFA693B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{005707C1-5D68-4D52-BAD3-9BCB119FE9BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{005707C1-5D68-4D52-BAD3-9BCB119FE9BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{005707C1-5D68-4D52-BAD3-9BCB119FE9BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{005707C1-5D68-4D52-BAD3-9BCB119FE9BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

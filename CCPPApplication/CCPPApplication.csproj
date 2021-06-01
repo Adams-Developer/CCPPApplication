@@ -9,4 +9,18 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CCPPApplicationML.Model\CCPPApplicationML.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Data\taxi-fair-train.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

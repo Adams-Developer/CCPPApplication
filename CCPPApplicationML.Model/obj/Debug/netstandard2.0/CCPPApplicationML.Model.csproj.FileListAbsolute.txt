@@ -1,0 +1,9 @@
+C:\Users\tadam\source\repos\CCPPApplication\CCPPApplicationML.Model\bin\Debug\netstandard2.0\MLModel.zip
+C:\Users\tadam\source\repos\CCPPApplication\CCPPApplicationML.Model\bin\Debug\netstandard2.0\CCPPApplicationML.Model.deps.json
+C:\Users\tadam\source\repos\CCPPApplication\CCPPApplicationML.Model\bin\Debug\netstandard2.0\CCPPApplicationML.Model.dll
+C:\Users\tadam\source\repos\CCPPApplication\CCPPApplicationML.Model\bin\Debug\netstandard2.0\CCPPApplicationML.Model.pdb
+C:\Users\tadam\source\repos\CCPPApplication\CCPPApplicationML.Model\obj\Debug\netstandard2.0\CCPPApplicationML.Model.AssemblyInfoInputs.cache
+C:\Users\tadam\source\repos\CCPPApplication\CCPPApplicationML.Model\obj\Debug\netstandard2.0\CCPPApplicationML.Model.AssemblyInfo.cs
+C:\Users\tadam\source\repos\CCPPApplication\CCPPApplicationML.Model\obj\Debug\netstandard2.0\CCPPApplicationML.Model.csproj.CoreCompileInputs.cache
+C:\Users\tadam\source\repos\CCPPApplication\CCPPApplicationML.Model\obj\Debug\netstandard2.0\CCPPApplicationML.Model.dll
+C:\Users\tadam\source\repos\CCPPApplication\CCPPApplicationML.Model\obj\Debug\netstandard2.0\CCPPApplicationML.Model.pdb
